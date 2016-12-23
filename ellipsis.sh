@@ -43,5 +43,7 @@ pkg.install() {
   esac
   . $HOME/.asdf/asdf.sh
   asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
+  asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
   ERLANG_EXTRA_CONFIGURE_OPTIONS='--without-wx' asdf install erlang 19.2
+  asdf install elixir 1.4.0-rc.1
 }
