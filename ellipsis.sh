@@ -24,9 +24,14 @@ pkg.install() {
           libtool \
           unixodbc-dev \
           m4 \
-          libwxgtk3.0-dev \
           libssh-dev \
+          libwxgtk3.0-dev \
           freeglut3-dev \
+          libglew-dev \
+          libglu1-mesa \
+          libglu1-mesa-dev \
+          libgl1-mesa-glx \
+          libgl1-mesa-dev \
           libglew1.5-dev \
           libglu1-mesa-dev \
           libgl1-mesa-dev \
