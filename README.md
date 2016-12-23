@@ -1,12 +1,12 @@
-# tbjers/dot-elixir
-My [Elixir][elixir] dotfiles, [ellipsis][ellipsis] compatible.
+# tbjers/dot-asdf
+My [ASDF][asdf] dotfiles, [ellipsis][ellipsis] compatible.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
 
 ```
-$ ellipsis install tbjers/dot-elixir
+$ ellipsis install tbjers/dot-asdf
 ```
 
 [ellipsis]: http://ellipsis.sh
-[elixir]: http://elixir-lang.org
+[asdf]: https://github.com/asdf-vm/asdf
