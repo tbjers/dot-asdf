@@ -12,7 +12,7 @@ pkg.install() {
       ;;
     linux)
       if utils.cmd_exists apt-get; then
-        sudo apt-get -y install automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev m4 libwxgtk3.0-dev
+        sudo apt-get -y install automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev m4 libwxgtk3.0-dev libssh-dev
       fi
       ;;
   esac
