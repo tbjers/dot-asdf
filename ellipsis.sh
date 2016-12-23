@@ -12,7 +12,26 @@ pkg.install() {
       ;;
     linux)
       if utils.cmd_exists apt-get; then
-        sudo apt-get -y install automake autoconf libreadline-dev libncurses-dev libssl-dev libyaml-dev libxslt-dev libffi-dev libtool unixodbc-dev m4 libwxgtk3.0-dev libssh-dev
+        sudo apt-get -y install \
+          automake \
+          autoconf \
+          libreadline-dev \
+          libncurses-dev \
+          libssl-dev \
+          libyaml-dev \
+          libxslt-dev \
+          libffi-dev \
+          libtool \
+          unixodbc-dev \
+          m4 \
+          libwxgtk3.0-dev \
+          libssh-dev \
+          freeglut3-dev \
+          libglew1.5-dev \
+          libglu1-mesa-dev \
+          libgl1-mesa-dev \
+          default-jre-headless \
+          openjdk-8-jre-headless
       fi
       ;;
   esac
