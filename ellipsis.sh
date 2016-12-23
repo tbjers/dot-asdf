@@ -35,6 +35,7 @@ pkg.install() {
           libglew1.5-dev \
           libglu1-mesa-dev \
           libgl1-mesa-dev \
+          libpng-dev \
           default-jre-headless \
           openjdk-8-jre-headless
       fi
@@ -42,5 +43,5 @@ pkg.install() {
   esac
   . $HOME/.asdf/asdf.sh
   asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
-  asdf install erlang 19.2
+  ERLANG_EXTRA_CONFIGURE_OPTIONS='--without-wx' asdf install erlang 19.2
 }
