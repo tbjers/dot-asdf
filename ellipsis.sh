@@ -47,3 +47,9 @@ pkg.install() {
   ERLANG_EXTRA_CONFIGURE_OPTIONS='--without-wx' asdf install erlang 19.2
   asdf install elixir 1.4.0-rc.1
 }
+
+pkg.pull() {
+  git pull \
+    && asdf plugin-update --all
+}
+
